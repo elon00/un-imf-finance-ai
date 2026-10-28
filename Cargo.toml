@@ -1,0 +1,13 @@
+[package]
+name = "un_imf_finance_ai"
+version = "0.1.0"
+edition = "2021"
+description = "IMF SDRNet AI: Special Drawing Rights (SDR) Digital Allocation, Sovereign Debt Restructuring and Macroeconomic Stability Telemetry"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
